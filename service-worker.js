@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lordberbeross/randomQuoteGenerator/precache-manifest.6cb15fd49ac37b7dc2e328201694b592.js"
+  "/randomQuoteGenerator/precache-manifest.ca329a87fd68a0069978ae331683c734.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/lordberbeross/randomQuoteGenerator/index.html", {
+workbox.routing.registerNavigationRoute("/randomQuoteGenerator/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
