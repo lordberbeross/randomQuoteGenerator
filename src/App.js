@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import colors from './colors.js';
+import Footer from './footer.js';
 
 class App extends Component{
   constructor(props){
@@ -60,7 +61,7 @@ class App extends Component{
       </div>
    
         </div>
-        
+        <Footer/>
         
       
        </div>
